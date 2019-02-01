@@ -29,10 +29,12 @@
   "author": "Zell Liew <zellwk@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
     "ava": "^1.2.0",
+    "babel-loader": "^8.0.5",
     "btoa": "^1.2.1",
     "express": "^4.16.3",
-    "isomorphic-fetch": "^2.2.1",
     "np": "^4.0.2",
     "standard": "^12.0.1",
     "webpack": "^4.7.0",
@@ -40,5 +42,10 @@
   },
   "peerDependencies": {
     "btoa": "^1.2.1"
+  },
+  "dependencies": {
+    "es6-object-assign": "^1.1.0",
+    "es6-promise": "^4.2.5",
+    "whatwg-fetch": "^3.0.0"
   }
 }
